@@ -1,0 +1,70 @@
+{"level":"INFO","time":1728986599517,"pid":9834,"hostname":"rk","msg":"Hello from Pino"}
+{"level":"CATASTROPHE","time":1728986599518,"pid":9834,"hostname":"rk","msg":"Catastrophe error"}
+[15:40:29.252] [32mINFO[39m (10731): [36mHello from Pino[39m
+[15:40:29.252] [37mUSERLVL[39m (10731): [36mCatastrophe error[39m
+[15:41:58.857] [32mINFO[39m (10872): [36mHello from Pino[39m
+[15:41:58.857] [37mUSERLVL[39m (10872): [36mCatastrophe error[39m
+[15:42:25.970] [32mINFO[39m (10958): [36mHello from Pino[39m
+[15:42:25.970] [37mUSERLVL[39m (10958): [36mCatastrophe error[39m
+[15:42:52.698] [32mINFO[39m (11016): [36mHello from Pino[39m
+[15:42:52.699] [37mUSERLVL[39m (11016): [36mCatastrophe error[39m
+[15:43:21.314] [32mINFO[39m (11099): [36mHello from Pino[39m
+[15:43:21.315] [37mUSERLVL[39m (11099): [36mCatastrophe error[39m
+[15:43:21.316] [31mERROR[39m (11099): [36mError occurred during division[39m
+    err: {
+      "type": "Error",
+      "message": "Division Error",
+      "stack":
+          Error: Division Error
+              at Object.<anonymous> (/home/rk/ws/tut/node-piyush/pino-trial/index.js:26:9)
+              at Module._compile (node:internal/modules/cjs/loader:1546:14)
+              at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)
+              at Module.load (node:internal/modules/cjs/loader:1317:32)
+              at Module._load (node:internal/modules/cjs/loader:1127:12)
+              at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+              at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+              at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:166:5)
+              at node:internal/main/run_main_module:30:49
+    }
+[15:43:46.291] [32mINFO[39m (11161): [36mHello from Pino[39m
+[15:43:46.291] [37mUSERLVL[39m (11161): [36mCatastrophe error[39m
+[15:43:46.292] [31mERROR[39m (11161): [36mError occurred during division[39m
+    err: {
+      "type": "Error",
+      "message": "Division Error",
+      "stack":
+          Error: Division Error
+              at Object.<anonymous> (/home/rk/ws/tut/node-piyush/pino-trial/index.js:26:9)
+              at Module._compile (node:internal/modules/cjs/loader:1546:14)
+              at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)
+              at Module.load (node:internal/modules/cjs/loader:1317:32)
+              at Module._load (node:internal/modules/cjs/loader:1127:12)
+              at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+              at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+              at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:166:5)
+              at node:internal/main/run_main_module:30:49
+    }
+[15:47:20.827] [32mINFO[39m (Jogn/11742): [36mEmployee Record[39m
+    id: 1
+    age: 35
+    email: "johndoe@test.com"
+    password: "Mysecretpassword"
+    address: {
+      "Street": "Brick Lane",
+      "City": "London"
+    }
+[15:50:07.506] [32mINFO[39m (Jogn/12056): [36mEmployee Record[39m
+    id: 1
+    age: 35
+    email: "[Redacted]"
+    password: "[Redacted]"
+    address: "[Redacted]"
+[15:51:46.534] [32mINFO[39m (John/12314): [36mEmployee Record[39m
+    id: 1
+    age: 35
+    email: "johndoe@test.com"
+    password: "[Redacted]"
+    address: "[Redacted]"
+[15:53:14.485] [32mINFO[39m (John/12456): [36mEmployee Record[39m
+    id: 1
+    age: 35
